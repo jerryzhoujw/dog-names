@@ -8,7 +8,7 @@
 
 import Foundation
 
-public enum DogName {
+public enum DogName: String {
     case Dog1
     case Dog2
     case Dog3
