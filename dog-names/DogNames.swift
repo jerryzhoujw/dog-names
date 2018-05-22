@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum DogName {
+public enum DogName {
     case Dog1
     case Dog2
     case Dog3
