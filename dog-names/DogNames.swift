@@ -16,5 +16,5 @@ public enum DogName: String {
 }
 
 public func allDogList() -> [DogName]{
-    return [.Dog1, .Dog2, .Dog3, Dog4]
+    return [.Dog1, .Dog2, .Dog3, .Dog4]
 }
