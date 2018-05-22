@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5367909620B428B100B007C3 /* DoorNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5367909520B428B100B007C3 /* DoorNames.swift */; };
+		5367909820B428EE00B007C3 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5367909720B428EE00B007C3 /* test.swift */; };
 		53C8745320B3F77C007F68E4 /* dog_names.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C8745120B3F77C007F68E4 /* dog_names.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53C8745C20B3F805007F68E4 /* DogNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C8745B20B3F805007F68E4 /* DogNames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5367909520B428B100B007C3 /* DoorNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorNames.swift; sourceTree = "<group>"; };
+		5367909720B428EE00B007C3 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		53C8744E20B3F77C007F68E4 /* dog_names.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = dog_names.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C8745120B3F77C007F68E4 /* dog_names.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dog_names.h; sourceTree = "<group>"; };
 		53C8745220B3F77C007F68E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 				53C8745120B3F77C007F68E4 /* dog_names.h */,
 				53C8745220B3F77C007F68E4 /* Info.plist */,
 				53C8745B20B3F805007F68E4 /* DogNames.swift */,
+				5367909520B428B100B007C3 /* DoorNames.swift */,
+				5367909720B428EE00B007C3 /* test.swift */,
 			);
 			path = "dog-names";
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				53C8745C20B3F805007F68E4 /* DogNames.swift in Sources */,
+				5367909820B428EE00B007C3 /* test.swift in Sources */,
+				5367909620B428B100B007C3 /* DoorNames.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
