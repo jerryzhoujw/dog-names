@@ -12,8 +12,9 @@ public enum DogName: String {
     case Dog1
     case Dog2
     case Dog3
+    case Dog4
 }
 
 public func allDogList() -> [DogName]{
-    return [.Dog1, .Dog2, .Dog3]
+    return [.Dog1, .Dog2, .Dog3, Dog4]
 }
