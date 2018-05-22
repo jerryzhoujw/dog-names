@@ -13,3 +13,7 @@ public enum DogName: String {
     case Dog2
     case Dog3
 }
+
+public func allDogList() -> [DogName]{
+    return [.Dog1, .Dog2, .Dog3]
+}
